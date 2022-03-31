@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour the World | Agi Travels</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">Agi Travels</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Special Offers</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Destination
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Africa Trips</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Asia Trips</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">America Trips</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Europe Trips</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Guest Reviews</a>
+                  </li>
+                </ul>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary mx-3">Contact</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary mx-3">Downloads</button>
+                    </li>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div id="carouselExampleCaptions" class="carousel carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="15000">
+                  <img src="./Images/pexels-fauxels-3182812.jpg"  style="width:auto; height: 400px; object-fit:cover;"   class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="texts">Let our experts plan your private trips, tailor made and secure tour in 100+ inspiring destinations. </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="15000">
+                  <img src="./Images/pexels-asad-photo-maldives-1268855.jpg" style="width:auto; height: 400px; object-fit:cover;" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="texts">Offering you the best luxury vacations around the world.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="15000">
+                <img src="./Images/pexels-jason-toevs-2033343.jpg" style="width:auto; height: 400px; object-fit:cover;" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <p class="texts">We take you there...</p>
+              </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="p-3 mb-2 bg-light text-dark">
+        <div class="btn-group1">
+            <h4 class="my-3 text-center">Book with Us Now</h4>
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+            Where do you want to go?
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+              <li><a class="dropdown-item" href="#">Africa</a></li>
+              <li><a class="dropdown-item" href="#">Asia</a></li>
+              <li><a class="dropdown-item" href="#">Europe</a></li>
+            </ul>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="true">
+              Your Interest?
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+              <li><a class="dropdown-item" href="#">Adventure & Outdoor</a></li>
+              <li><a class="dropdown-item" href="#">Heritage & Culture</a></li>
+              <li><a class="dropdown-item" href="#">Beaches</a></li>
+            </ul>
+          </div>
+          
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+              No. of travelers
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+              <li><a class="dropdown-item" href="#">1 traveler</a></li>
+              <li><a class="dropdown-item" href="#">2 travelers</a></li>
+              <li><a class="dropdown-item" href="#">3 travelers</a></li>
+              <li><a class="dropdown-item" href="#">4 travelers</a></li>
+              <li><a class="dropdown-item" href="#">5 travelers</a></li>
+              <li><a class="dropdown-item" href="#">6 travelers</a></li>
+              <li><a class="dropdown-item" href="#">6+ travelers</a></li>
+            </ul>
+          </div>
+          
+          <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+              Budget Per Person
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+              <li><a class="dropdown-item" href="#">$2,000 to $3,000</a></li>
+              <li><a class="dropdown-item" href="#">$3,000 to $4000</a></li>
+              <li><a class="dropdown-item" href="#">$4,000 to $6,000</a></li>
+              <li><a class="dropdown-item" href="#">$6,000 to $8,000</a></li>
+              <li><a class="dropdown-item" href="#">$8,000 to $10,000</a></li>
+              <li><a class="dropdown-item" href="#">$10,000+</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-danger">Create My Trip Now</button>
+        </div>
+        <div class="card-group">
+            <div class="card">
+              <img src="./Images/pexels-emmy-e-2381069.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">About Us</h5>
+                <p class="card-text">AGI Consulting was founded in the year 2022, after a group of travel consultants decided to offer high class guests, luxury vacation trips at greater prices.</p>
+                <a href="#">
+                    <button type="button" class="btn btn-primary">Read More..</button>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Images/eMPLOYEES.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Values</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <a href="#">
+                    <button type="button" class="btn btn-primary">Read More..</button>
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./Images/eMPLOYEES (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">2021 Data</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <a href="#">
+                    <button type="button" class="btn btn-primary">Read More..</button>
+                </a>
+            </div>
+            </div>
+          </div>
+          
+        <div class="center">
+    <h4 class="text-center">Contact Us</h4>
+            <div class="my-3 mb-3 text-center">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3 text-center">
+                <label for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <button type="button" class="btn btn-primary my-3">Submit</button>
+            </div>
+        </div>
+            </div>
+    <footer class="footer text-center py-5 bg text-dark">
+        <div class="container">Agi Travels, Inc &copy; 2022 
+            <a href="contact@agitravels.com">contact@agitravels.com</a>
+            <p>Hochkönigstrasse 9, 81825 München, Germany.</p>
+            
+        </div>
+    </footer>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

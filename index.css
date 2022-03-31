@@ -1,0 +1,21 @@
+.center{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+.container {
+    font-size: large;
+}
+.texts {
+    font-weight: bolder;
+    font-size: larger;
+    font-style: italic;
+}
+.btn-group1 {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.card-group {
+    margin-top: 50px;
+}
