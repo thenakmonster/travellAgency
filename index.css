@@ -1,7 +1,9 @@
 .center{
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 50px;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items:center;
+    justify-content: center;
+    display: flex;
 }
 .container {
     font-size: large;
@@ -10,12 +12,37 @@
     font-weight: bolder;
     font-size: larger;
     font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .btn-group1 {
-    margin-left: 300px;
-    margin-right: 300px;
+    flex-direction: row;
     margin-top: 50px;
+    box-sizing: border-box;
+    align-items:center;
+    justify-content: center;
+    display: flex;
 }
 .card-group {
     margin-top: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(117, 82, 82, 0.65);
+    color: white;
+}
+.text-center {
+    color: rgb(253, 253, 253);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.btn-group {
+    margin-right: 7px;
+}
+.background {
+    background-image: url(./Images/pexels-artem-beliaikin-893196.jpg);
+}
+.book {
+    padding-top: 40px;
+    color: whitesmoke;
 }
